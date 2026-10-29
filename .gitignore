@@ -1,0 +1,24 @@
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Android Studio / IntelliJ
+*.iml
+.idea/
+captures/
+.externalNativeBuild
+.cxx
+
+# Local machine config
+local.properties
+
+# Signing material — never commit these
+*.jks
+*.keystore
+keystore.properties
+
+# Build output that should not live in git
+*.apk
+*.aab
+*.zip
